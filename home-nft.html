@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CTNC</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="app/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    <link rel="stylesheet" href="app/dist/app.css">
+    <link href="app/dist/aos.css" rel="stylesheet">
+    <!-- end Styles -->
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon.ico">
+</head>
+<body class="home-nft header-fixed" data-magic-cursor="show">
+<!-- Preloading -->
+    <video autoplay muted loop playsinline style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -1000;">
+        <source src="images/home-bg.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="preloader">
+        <div class=" loader">
+            <div class="square"></div>
+            <div class="path">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+          <p class="text-load">Loading :</p>
+        </div>
+    </div> 
+    <!-- End Preloading -->
+    
+    <!-- MAGIC CURSOR -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+	<!-- /MAGIC CURSOR -->
+
+    <!-- Header -->
+    <header id="header_main" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__body">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img id="site-logo" src="images/logo-center-white.png"
+                                alt="Monteno" width="165" height="40"
+                                data-retina="assets/images/logo/logo-main@x2.png" data-width="165"
+                                data-height="40">
+                            </a>
+                        </div>
+
+                        <div class="header__right">
+                            <nav id="main-nav" class="main-nav">
+                                <ul id="menu-primary-menu" class="menu">
+                                    <li class="menu-item menu-item-has-children current-menu-item">
+                                        <a href="#">Home Page</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="#">Home</a></li>
+                                            <li class="menu-item"><a href="#whatisctnc">What is CTNC?</a></li>
+                                            <li class="menu-item"><a href="#benefits">Why CTNC?</a></li>
+                                            <li class="menu-item"><a href="#roadmap">Roadmap</a></li>
+                                            <li class="menu-item"><a href="#ecosystem">Ecosystem</a></li>
+                                            <li class="menu-item"><a href="#team">Team</a></li>
+                                            <li class="menu-item"><a href="#faqs">FAQs</a></li>
+                                            <li class="menu-item"><a href="#contact">Join Community</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://docs.cryptotigernode.club/" target="_blank">Whitepaper</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://app.cryptotigernode.club/dashboard" target="_blank">Dashboard</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://app.uniswap.org/" target="_blank">Buy CARAMEL</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://mine.cryptotigernode.club/" target="_blank">Miner</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="group-button">
+                                
+                                <a href="https://discord.gg/ctnc" class="btn-action-outline style-1" target="_blank">
+                                    <span class="icon-reddit"></span><span> Discord</span>
+                                </a>
+                                <a class="btn-action style-2" href="#">
+                                    <span>Launch App</span>
+                                </a>
+                            </div>
+                            <div class="mobile-button"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end Header -->
+
+    <!-- Banner Top -->
+    <section class="banner-top style-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner-top__content">
+                        <h2 class="title" style="color: #faa046; font-size: 60px;">CTNC <span>built by </span>Tigers, <span>for </span>Tigers.</h2>
+                        <p class="desc" style="padding-right: 0 !important;">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
+                        <div class="button">
+                            <a href="https://app.cryptotigernode.club" class="btn-action style-2" target="_blank"><span>Launch App</span></a>
+                        </div>
+
+                        <ul class="content-list">
+                            <li>
+                                <span class="icon-brute"></span>
+                                <h5>+128K</h5>
+                                <p>Current Holders</p>
+                            </li>
+                            <li>
+                                <span class="icon-pegasus"></span>
+                                <h5>+2 mILLION</h5>
+                                <p>CryptoItem</p>
+                            </li>
+                            <li>
+                                <span class="icon-bear-face"></span>
+                                <h5>+3.000 USD</h5>
+                                <p>Total Volume</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner-top__sale">
+                        <img src="./images/home-tiger.png" width="90%" alt="ICOLand">
+                        <div class="sale-content" style="margin-top: 0;">
+                            <h6>Launch Time</h6>
+
+                            <span class="js-countdown" data-timer="2160000"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Banner Top -->
+
+    <!-- Section Features -->
+    <section class="about style-2" id="whatisctnc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="about__content" style="">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-12" style="display: flex; align-items: center;">
+                                <img src="./images/home-tiger.png" width="90%" alt="ICOLand">
+                            </div>
+                            <div class="col-xl-8 col-md-12" style="display: flex; align-items: center;">
+                                <div class="block-text" style="align-items: center;">
+                                    <h3 class="title">What is CTNC?</h3>
+                                    <p class="fs-20 mt-12">CTNC is a collection of 10,000 Crypto tiger NFTs - unique digital collectibles living on the Ethereum blockchain. CTNC is based on powerful Node protocol that boasts a passive income of up to 1200% APR.</p>
+                                    <p class="fs-20 mt-12">We provide the first ecosystem that brings together the value of NFT art collection with the thrill of experiencing passive income based governance token.</p>
+                                    <div class="button">
+                                        <a href="https://docs.cryptotigernode.club" class="btn-action style-2" style="display: inline-block;" target="_blank"><span>Learn more</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Features -->
+
+    <!-- Section RoadMap -->
+    <section class="road-map style-1" id="roadmap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="heading" style="color: #faa046; font-size: 60px;">Roadmap</h3>
+                        <p>The most technologically advanced species will not stop any time soon...</p>
+                    </div>
+
+                    <div class="road-map__content">
+                        <div class="box-roadmap">
+                            <div class="box-roadmap__top">
+                                <h4><span>Stage #1</span> - [Q1-Q2 2022] </h4>
+                                <div class="shape active"></div>
+                            </div>
+                            <div class="box-roadmap__main">
+                                <div class="text"><p>
+                                    Start to build a community around this project<br/>
+                                    Publish the Whitepaper and Tokenomics<br/>
+                                    Create a beta version of landing page and the dApp<br/>
+                                    Create NFT traits, rarities and 10,000 collections
+                                </p></div>
+                                <img width="230px" src="images/home-tiger.png" alt="ICOLand" data-aos="fade-down" data-aos-duration="1000">
+                            </div>
+                        </div>
+                        <div class="box-roadmap s2">
+                            <div class="box-roadmap__top">
+                                <h4><span>Stage #2</span> - [Q2 2022] </h4>
+                                <div class="shape"></div>
+                            </div>
+                            <div class="box-roadmap__main">
+                                <div class="text"><p>
+                                    Let early adopters invest in the CARAMEL token on the Ethereum chain through Uniswap<br/>
+                                    Early adopters can mint the first Tiger NFTs and receive rewards in CARAMEL tokens from the pool<br/>
+                                    Reach the goal of 100 NFTs minted early to make sure the reward mechanism works and is scalable<br/>
+                                    Get listed on CoinGecko and CoinMarketCap to gain visibility and communicate about our vision<br/>
+                                    Airdrop 200 NFTs for giveways<br/>
+                                    Launch Presale
+                                </p></div>
+                                <img width="230px" src="images/home-tiger.png" alt="ICOLand" data-aos="fade-down" data-aos-duration="1000">
+                            </div>
+                        </div>
+                        <div class="box-roadmap">
+                            <div class="box-roadmap__top">
+                                <h4><span>Stage #3</span> - [Q2-Q3 2022] </h4>
+                                <div class="shape"></div>
+                            </div>
+                            <div class="box-roadmap__main">
+                                <div class="text"><p>
+                                    Launch Public Sale<br/>
+                                    Improve the reward distribution system to make it more reliable and scalable
+                                </p></div>
+                                <img width="230px" src="images/home-tiger.png" alt="ICOLand" data-aos="fade-down" data-aos-duration="1000">
+                            </div>
+                        </div>
+                        <div class="box-roadmap s2">
+                            <div class="box-roadmap__top">
+                                <h4><span>Stage #4</span> - [Q3-Q4 2022]</h4>
+                                <div class="shape"></div>
+                            </div>
+                            <div class="box-roadmap__main">
+                                <div class="text"><p>
+                                    Complete the CTNC DeFi protocol<br/>
+                                    Open the DAO to let holders vote<br/>
+                                    Get listed on Centralized Exchanges
+                                </p></div>
+                                <img width="230px" src="images/home-tiger.png" alt="ICOLand" data-aos="fade-down" data-aos-duration="1000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Section RoadMap -->
+
+    <!-- Section Creation -->
+    <section class="creation" id="ecosystem">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-text center" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="title" style="color: #faa046; font-size: 48px;">Ecosystem</h3>
+                        <p class="desc" style="font-size: 20px;">The most technologically advanced species will not stop any time soon...</p>
+                    </div>
+                    <div class="creation__main">
+                        <div class="box-nft">
+                            <span class="icon-union-01"></span>
+                            <span class="icon-union-02"></span>
+                            <span class="icon-union-03"></span>
+                            <span class="icon-union-04"></span>
+                            <div class="box-nft__main">
+                                <a href="https://app.cryptotigernode.club/" target="_blank"><img src="images/home-tiger.png" alt="ICOLand"></a>
+                                <div class="content">
+                                    <a href="https://app.cryptotigernode.club/" class="h4 title">Node Protocol</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-nft">
+                            <span class="icon-union-01"></span>
+                            <span class="icon-union-02"></span>
+                            <span class="icon-union-03"></span>
+                            <span class="icon-union-04"></span>
+                            <div class="box-nft__main">
+                                <a href="https://mine.cryptotigernode.club/" target="_blank"><img src="images/home-tiger.png" alt="ICOLand"></a>
+                                <div class="content">
+                                    <a href="https://mine.cryptotigernode.club/" class="h4 title">CTNC Miner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-nft">
+                            <span class="icon-union-01"></span>
+                            <span class="icon-union-02"></span>
+                            <span class="icon-union-03"></span>
+                            <span class="icon-union-04"></span>
+                            <div class="box-nft__main">
+                                <a href="https://opensea.io/" target="_blank"><img src="images/home-tiger.png" alt="ICOLand"></a>
+                                <div class="content">
+                                    <a href="https://opensea.io/" class="h4 title">Opensea</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-nft">
+                            <span class="icon-union-01"></span>
+                            <span class="icon-union-02"></span>
+                            <span class="icon-union-03"></span>
+                            <span class="icon-union-04"></span>
+                            <div class="box-nft__main">
+                                <a href=""><img src="images/home-tiger.png" alt="ICOLand"></a>
+                                <div class="content">
+                                    <a href="" class="h4 title">DeFi (comming soon)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-nft">
+                            <span class="icon-union-01"></span>
+                            <span class="icon-union-02"></span>
+                            <span class="icon-union-03"></span>
+                            <span class="icon-union-04"></span>
+                            <div class="box-nft__main">
+                                <a href=""><img src="images/home-tiger.png" alt="ICOLand"></a>
+                                <div class="content">
+                                    <a href="" class="h4 title">DAO (comming soon)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Creation -->
+
+    <!-- Section Document -->
+    <!-- <section class="document style-1" id="document">
+        <div class="container">
+            <div class="row">
+                <div class="document__main">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block-text center">
+                                <h3 class="heading" style="color: #faa046; font-size: 48px;">Document</h3>
+                                <p class="desc"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="document__content">
+                                <div class="box-document">
+                                    <div class="content">
+                                        <h4 class="title">WHITE PAPER</h4>
+                                        <a href="#" class="icon">
+                                            <img src="assets/images/icon/download.png" alt="ICOLand">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="box-document">
+                                    <div class="content">
+                                        <h4 class="title">WHITE PAPER</h4>
+                                        <a href="#" class="icon">
+                                            <img src="assets/images/icon/download.png" alt="ICOLand">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="box-document">
+                                    <div class="content">
+                                        <h4 class="title">PRIVACY POLICY</h4>
+                                        <a href="#" class="icon">
+                                            <img src="assets/images/icon/download.png" alt="ICOLand">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="box-document">
+                                    <div class="content">
+                                        <h4 class="title">TERM OF COIN SALES</h4>
+                                        <a href="#" class="icon">
+                                            <img src="assets/images/icon/download.png" alt="ICOLand">
+                                         </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Section Document -->
+
+    <!-- Section Team -->
+    <section class="section-team team-8" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flat-tabs">
+                        <ul class="menu-tab">
+                            <li class="active"><div class="image"><img src="images/home-tiger.png" alt="ICOLand"></div></li>
+                            <li><div class="image"><img src="images/home-tiger.png" alt="ICOLand"></div></li>
+                            <li><div class="image"><img src="images/home-tiger.png" alt="ICOLand"></div></li>
+                            <li><div class="image"><img src="images/home-tiger.png" alt="ICOLand"></div></li>
+                            <li><div class="image"><img src="images/home-tiger.png" alt="ICOLand"></div></li>
+                        </ul>
+                        <div class="content-tab">
+                            <div class="content-inner">
+                                   <div class="image">
+                                       <img src="images/home-tiger.png" alt="ICOLand">
+                                   </div>
+                                   <div class="content">
+                                       <div class="block-text">
+                                           <h3 class="heading">Executive Team</h3>
+                                           <p>Our team player alway finds effective ways to improve the product and process</p>
+                                       </div>
+                                       <div class="info">
+                                            <span class="icon-union-01"></span>
+                                            <span class="icon-union-02"></span>
+                                            <span class="icon-union-03"></span>
+                                            <span class="icon-union-04"></span>
+                                           <h4 class="name">Milan M</h4>
+                                           <p class="position">Co-founder</p>
+                                           <p class="text"></p>
+                                           <ul class="list-social">
+                                               <li><span class="icon-twitter"></span></li>
+                                               <li><span class="icon-facebook"></span></li>
+                                               <li><span class="icon-place"></span></li>
+                                               <li><span class="icon-reddit"></span></li>
+                                           </ul>
+                                       </div>
+                                   </div>                                                         
+                            </div>
+                            <div class="content-inner">
+                                <div class="image">
+                                    <img src="images/home-tiger.png" alt="ICOLand">
+                                </div>
+                                <div class="content">
+                                    <div class="block-text">
+                                        <h3>Executive Team</h3>
+                                        <p>Our team player alway finds effective ways to improve the product and process</p>
+                                    </div>
+                                    <div class="info">
+                                         <span class="icon-union-01"></span>
+                                         <span class="icon-union-02"></span>
+                                         <span class="icon-union-03"></span>
+                                         <span class="icon-union-04"></span>
+                                        <h4 class="name">Yuki I</h4>
+                                        <p class="position">Co-founder</p>
+                                        <p class="text"></p>
+                                        <ul class="list-social">
+                                            <li><span class="icon-twitter"></span></li>
+                                            <li><span class="icon-facebook"></span></li>
+                                            <li><span class="icon-place"></span></li>
+                                            <li><span class="icon-reddit"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>                                                         
+                            </div>
+                            <div class="content-inner">
+                                <div class="image">
+                                    <img src="images/home-tiger.png" alt="ICOLand">
+                                </div>
+                                <div class="content">
+                                    <div class="block-text">
+                                        <h3>Executive Team</h3>
+                                        <p>Our team player alway finds effective ways to improve the product and process</p>
+                                    </div>
+                                    <div class="info">
+                                         <span class="icon-union-01"></span>
+                                         <span class="icon-union-02"></span>
+                                         <span class="icon-union-03"></span>
+                                         <span class="icon-union-04"></span>
+                                        <h4 class="name">Kevin A</h4>
+                                        <p class="position">Blockchain developer</p>
+                                        <p class="text"></p>
+                                        <ul class="list-social">
+                                            <li><span class="icon-twitter"></span></li>
+                                            <li><span class="icon-facebook"></span></li>
+                                            <li><span class="icon-place"></span></li>
+                                            <li><span class="icon-reddit"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>                                                         
+                            </div>
+                            <div class="content-inner">
+                                <div class="image">
+                                    <img src="images/home-tiger.png" alt="ICOLand">
+                                </div>
+                                <div class="content">
+                                    <div class="block-text">
+                                        <h3>Executive Team</h3>
+                                        <p>Our team player alway finds effective ways to improve the product and process</p>
+                                    </div>
+                                    <div class="info">
+                                         <span class="icon-union-01"></span>
+                                         <span class="icon-union-02"></span>
+                                         <span class="icon-union-03"></span>
+                                         <span class="icon-union-04"></span>
+                                        <h4 class="name">Tatuhiro</h4>
+                                        <p class="position">Blockchain developer</p>
+                                        <p class="text"></p>
+                                        <ul class="list-social">
+                                            <li><span class="icon-twitter"></span></li>
+                                            <li><span class="icon-facebook"></span></li>
+                                            <li><span class="icon-place"></span></li>
+                                            <li><span class="icon-reddit"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>                                                         
+                            </div>
+                            <div class="content-inner">
+                                <div class="image">
+                                    <img src="images/home-tiger.png" alt="ICOLand">
+                                </div>
+                                <div class="content">
+                                    <div class="block-text">
+                                        <h3>Executive Team</h3>
+                                        <p>Our team player alway finds effective ways to improve the product and process</p>
+                                    </div>
+                                    <div class="info">
+                                         <span class="icon-union-01"></span>
+                                         <span class="icon-union-02"></span>
+                                         <span class="icon-union-03"></span>
+                                         <span class="icon-union-04"></span>
+                                        <h4 class="name">Moosa Zaidi</h4>
+                                        <p class="position">Marketing manager</p>
+                                        <p class="text"></p>
+                                        <ul class="list-social">
+                                            <li><span class="icon-twitter"></span></li>
+                                            <li><span class="icon-facebook"></span></li>
+                                            <li><span class="icon-place"></span></li>
+                                            <li><span class="icon-reddit"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>                                                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Team -->
+
+    <!-- Section Faq -->
+    <section class="section-faq style-2" id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="faq__content">
+                        <div class="block-text">
+                            <h3 class="heading" style="color: #faa046; font-size: 36px;">Have Any Question? </h3>
+                            <p>Download the whitepaper and learn about CTNC, Contact us for more details.</p>
+                        </div>
+    
+                        <div class="flat-tabs">
+                            <ul class="menu-tab">
+                                <li class="active"><h6>General</h6></li>
+                                <li><h6>CTNC Guide</h6></li>
+                                <li><h6>Caramel Token</h6></li>
+                                <li><h6>CTNC Miner</h6></li>
+                                <li><h6>Legal</h6></li>
+    
+                            </ul>
+                            <div class="content-tab">
+                                <div class="content-inner flat-accordion">
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle active">
+                                        <h6 class="toggle-title active">What is Shopi. return/exchange policy?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>                                                       
+                                </div>
+                                <div class="content-inner flat-accordion">
+                                    <div class="flat-toggle active">
+                                        <h6 class="toggle-title active">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">What is Shopi. return/exchange policy?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>                                                       
+                                </div>
+                                <div class="content-inner flat-accordion">
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">What is Shopi. return/exchange policy?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle active">
+                                        <h6 class="toggle-title active">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>                                                       
+                                </div>
+                                <div class="content-inner flat-accordion">
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">What is Shopi. return/exchange policy?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle active">
+                                        <h6 class="toggle-title active">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>                                                       
+                                </div>
+                                <div class="content-inner flat-accordion">
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle active">
+                                        <h6 class="toggle-title active">What is Shopi. return/exchange policy?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>
+                                    <div class="flat-toggle">
+                                        <h6 class="toggle-title">How can I track my order?</h6>
+                                        <p class="toggle-content">We try to keep returns and exchanges as simple as possible. As long as they meet our criteria, it should be no problem at all to return or exchange them.</p>
+                                    </div>                                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="faq__images">
+                        <img src="images/fire-tiger.png" width="90%" alt="ICOLand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Faq -->
+    
+    <!-- Section Join -->
+    <section class="join-now" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="join-now__main">
+                        <h3>Join our Community</h3>
+                        <p></p>
+                        <div class="join-now__button">
+                            <a href="" class="btn-action style-2" target="_blank"><span>TWITTER</span></a>
+                            <a href="" class="btn-action style-2" target="_blank"><span>INSTAGRAM</span></a>
+                            <a href="https://discord.gg/ctnc" class="btn-action style-2" target="_blank"><span>DISCORD</span></a>
+                            <a href="https://t.me/C_T_N_C" class="btn-action style-2" target="_blank"><span>TELEGRAM</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Join -->
+
+    <!-- Footer -->
+    <footer class="footer style-1">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-md-12">
+                        <div class="content-left">
+                            <h5 class="fs-22">Don't miss out, Stay updated</h5>
+                            <p>Don’t hesitate to subscribe to latest news about CTNC markets</p>
+
+                            <form action="" id="subscribe-form">
+                                <input type="email" placeholder="Enter your email" required="" id="subscribe-email">
+                                <button class="btn-action style-2" type="submit" id="subscribe-button"> <span class="effect">SUBSCRIBE</span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-12">
+                        <div class="content-right">
+                            <p>Don’t hesitate to subscribe to latest news about CTNC markets</p>
+                            <ul class="list-social">
+                                <li><a href="" target="_blank"><i class="fab fa-twitter" style="font-size: 24px;"></i></a></li>
+                                <!-- <li><span class="icon-facebook"></span></li> -->
+                                <li><a href="" target="_blank"><i class="fab fa-instagram" style="font-size: 24px;"></i></a></li>
+                                <!-- <li><span class="icon-youtobe"></span></li> -->
+                                <!-- <li><span class="icon-tiktok"></span></li> -->
+                                <li><a href="https://discord.gg/ctnc" target="_blank"><i class="fab fa-discord" style="font-size: 24px;"></i></a></li>
+                                <li><a href="https://t.me/C_T_N_C" target="_blank"><i class="fab fa-telegram" style="font-size: 24px;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>© 2022. All rights reserved by CTNC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <a id="scroll-top"></a>
+
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/count-down.js"></script>
+    <script src="app/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="app/js/mouse.js"></script>
+</body>
+</html>
