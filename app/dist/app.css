@@ -5314,7 +5314,9 @@ h3, h5 {
   width: 100%;
 }
 .team-box-7 .team-box__image img {
-  width: 100%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 .team-box-7 .team-box__info {
   /* background: rgba(72, 214, 210, 0.1); */
@@ -5324,9 +5326,8 @@ h3, h5 {
   font-size: 24px;
 }
 .team-box-7 .team-box__info .list-social {
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 31px;
-  margin-left: -8px;
 }
 .team-box-7:hover {
   border: 2px solid #48D6D2;
