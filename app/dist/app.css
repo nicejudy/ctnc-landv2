@@ -961,7 +961,7 @@ h3, h5 {
   overflow: hidden;
   font-family: "Zen Dots";
   font-weight: 400;
-  background: linear-gradient(90deg, #ff9900 0%, #d1b80f 10%, #c7bf13 20%, #bec516 30%, #b4cc19 40%, #b1cf1a 50%, #add11b 60%, #a6d61d 70%, #9fda1f 80%, #97df22 90%, #66ff33 100%), linear-gradient(87.21deg, #ff9900 0%, #66ff33 100%);
+  /* background: linear-gradient(90deg, #ff9900 0%, #d1b80f 10%, #c7bf13 20%, #bec516 30%, #b4cc19 40%, #b1cf1a 50%, #add11b 60%, #a6d61d 70%, #9fda1f 80%, #97df22 90%, #66ff33 100%), linear-gradient(87.21deg, #ff9900 0%, #66ff33 100%); */
 }
 .btn-action.style-2 span {
   position: relative;
@@ -976,7 +976,7 @@ h3, h5 {
   width: 100%;
   height: 100%;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(-90deg, #ff9900 0%, #d1b80f 10%, #c7bf13 20%, #bec516 30%, #b4cc19 40%, #b1cf1a 50%, #add11b 60%, #a6d61d 70%, #9fda1f 80%, #97df22 90%, #66ff33 100%), linear-gradient(87.21deg, #ff9900 0%, #66ff33 100%);
+  /* background: linear-gradient(-90deg, #ff9900 0%, #d1b80f 10%, #c7bf13 20%, #bec516 30%, #b4cc19 40%, #b1cf1a 50%, #add11b 60%, #a6d61d 70%, #9fda1f 80%, #97df22 90%, #66ff33 100%), linear-gradient(87.21deg, #ff9900 0%, #66ff33 100%); */
   opacity: 0;
   transition: 0.5s all ease-in-out;
 }
@@ -3393,11 +3393,11 @@ h3, h5 {
 
 .road-map.style-4 {
   padding: 59px 0 43px;
-  background: #130F40;
+  /* background: #130F40; */
 }
 .road-map.style-4 .block-text .heading {
   font-size: 40px;
-  font-family: "Poppins";
+  font-family: "Zen Dots";
   text-transform: none;
 }
 .road-map.style-4 .block-text p {
@@ -5283,7 +5283,7 @@ h3, h5 {
   position: relative;
 }
 .section-team.style-7 .block-text .heading {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Dots", sans-serif;
   font-size: 40px;
   text-transform: none;
 }
@@ -9522,7 +9522,7 @@ img.mfp-img {
 }
 .footer.style-4 .footer__top .content-left h3 {
   font-size: 40px;
-  font-family: "Poppins";
+  font-family: "Zen Dots";
   margin-bottom: 18px;
 }
 .footer.style-4 .footer__top .content-left p {
@@ -10597,10 +10597,10 @@ img.mfp-img {
   padding: 0 0 153px;
 }
 .home-nft .join-now__main {
-  background-color: #122c3d80;
-  backdrop-filter: blur(10px);
+  background-color: rgba(46, 114, 210, 0.08);
+  /* backdrop-filter: blur(10px); */
   border-radius: 20px;
-  box-shadow: 0 7px 67px 0 rgb(114 65 164 / 93%);
+  /* box-shadow: 0 7px 67px 0 rgb(114 65 164 / 93%); */
   background-size: contain;
   background-position: top center;
   padding: 61px 100px;
